@@ -3,6 +3,9 @@
 ## PWA To-Do Uygulaması
 Bu proje, kullanıcıların görevlerini (to-do) eklemelerini, düzenlemelerini ve silmelerini sağlayan bir Progressive Web App (PWA) uygulamasıdır.
 
+## Kullanılan Teknolojiler
+TypeScript, Redux, React, Firebase, NextJS, Tailwind, Eslint
+
 ## Başlangıç
 Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
 
