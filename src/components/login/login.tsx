@@ -31,6 +31,29 @@ const LoginPage: React.FC = () => {
 
   return (
     <div>
+      <div className="bg-white text-black p-2 mb-2">
+        <p className="">
+          Merhaba! <br />
+          Şimdilik üyelik oluşturamıyorsunuz. Ancak aşağıdaki bilgilerle projeyi
+          deneyimleyebilirsiniz. Ayrıca projeyi bilgisayarınıza PWA olarak da
+          inderebilirsiniz.
+        </p>
+        <ul className="text-grey-300 text-underline text-sm mt-2">
+          <li>E-posta: admin@gmail.com</li>
+          <li>Şifre: admin123</li>
+        </ul>
+        <p className="text-red-700 text-sm mt-2">
+          Bu uygulamayı masa üstünde kullanabilmek için search barın içinde
+          konumlanmış iconlardan indirme butonunu kullan.
+        </p>
+        <a
+          href="https://github.com/idilTugba/PWA_To_Do"
+          target="_blank"
+          className="text-green-700 text-sm mt-4"
+        >
+          Projenin GitHub Linki
+        </a>
+      </div>
       <form onSubmit={handleLogin}>
         <input
           type="email"
@@ -50,7 +73,7 @@ const LoginPage: React.FC = () => {
           Giriş Yap
         </button>
       </form>
-      {error && <p>{error}</p>}
+      {error && <p className="text-white text-sm mt-2">{error}</p>}
     </div>
   );
 };
